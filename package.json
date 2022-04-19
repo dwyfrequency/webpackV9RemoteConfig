@@ -1,0 +1,20 @@
+{
+  "name": "webpackV9",
+  "version": "1.0.0",
+  "description": "Test firebase js sdk v9 bundle size with webpack",
+  "main": "index.js",
+  "author": "dwyfrequency",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "firebase": "^9.6.11"
+  }
+}
